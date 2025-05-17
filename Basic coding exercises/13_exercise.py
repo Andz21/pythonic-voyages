@@ -1,0 +1,10 @@
+# 13. Print multiplication table from 1 to 10
+
+def multiplication_table():
+    for i in range(1,11):
+        for j in range(1,11):
+            print(i*j, end=' ')
+        print('')
+
+print("Multiplication table from 1 to 10:")
+multiplication_table()
